@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* SPEACK YOUR MIND | SECTION-1 */
+.career-header {
+    width: 100%;
+    height: 392px;
+    background-image: url(./Career/Career-bg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-header .career-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-header .career-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 138%;
+    color: #FFFF;
+}
+
+.career-header .career-content p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    text-align: center;
+    color: #FFFF;
+}
+
+/* .career-header .carrer-header.career-header-cont {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text h1 {
+    text-transform: initial;
+    font-weight: 500;
+    font-size: 52px;
+    color: #3D3D7F;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text h1 img {
+    width: 100px;
+    height: 40px;
+    padding-left: 0;
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text .btn-wrapper1 {
+    width: 130px;
+    height: 50px;
+    background: linear-gradient(90deg, #FF3B34 29.31%, #FF5633 49.69%, #FF6C33 66.81%);;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text .btn-wrapper1:hover {
+    transform: scale(1.1);
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text .btn-wrapper1 button {
+    width: 100px;
+    height: 100%;
+    background: linear-gradient(90deg, #FF3B34 29.31%, #FF5633 49.69%, #FF6C33 66.81%);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    letter-spacing: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.career-header .carrer-header.career-header-cont .career-header-text .btn-wrapper1 .arrow-right {
+    color: #FFFFFF;
+    font-size: smaller;
+    cursor: pointer;
+    margin-left: -10px;
+}
+
+.career-header .career-header-img {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Career/Shapes.svg), url(./Career/Img-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100px, contain;
+    background-position: 99% 94%, center;
+    margin-left: 70px;
+}
+
+.career-header .career-header-img img {
+    width: 300px;
+    height: 250px;
+} */
+
+/* VACANCIES | SECTION-2 */
+.career-sec2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Career/Backgroud_2.svg);
+    background-repeat: no-repeat;
+    background-position: 100% -7%;;
+}
+
+.career-sec2 h5 {
+    text-transform: initial;
+    font-weight: 500;
+    font-size: 18px;
+    color: #104CBA;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 2;
+}
+
+.career-sec2 h3 {
+    text-transform: initial;
+    font-weight: 600;
+    font-size: 33px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 2;
+}
+
+.career-sec2 .career-sec2-cont {
+    width: 100%;
+    height: auto;
+    margin: 50px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 {
+    width: 60%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .img-cont {
+    width: 360px;
+    height: 200px;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .img-cont img {
+    width: 100%;
+    height: 100%;
+    border-radius: 17px 0 0 17px;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont {
+    width: 560px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    border: 1px solid lightgray;
+    border-radius: 0px 17px 17px 0px;
+    padding-left: 30px;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont h4 {
+    text-transform: initial;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 40px;
+    color: #454545;
+    font-family: 'Poppins', sans-serif;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #919191;
+    font-family: 'Poppins', sans-serif;
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont .btn-wrapper2 {
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+    /* background: linear-gradient(90deg, #FF3B34 29.31%, #FF5633 49.69%, #FF6C33 66.81%); */
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont .btn-wrapper2:hover {
+    transform: scale(1.1);
+}
+
+.career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont .btn-wrapper2 button {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border: 2px solid #ff5833;
+    outline: none;
+    border-radius: 8.96201px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #464646;
+    text-transform: capitalize;
+    transition: all .2s ease-in-out;
+}
+
+
+/* CONNECT WITH US | SECTION-3 */
+.career-sec3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-sec3 h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 172.19%;
+    color: #104CBA;
+    text-transform: inherit;
+}
+
+.career-sec3 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 153.19%;
+    color: #000000;
+    text-transform: inherit;
+}
+
+.career-sec3 h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 153.19%;
+    background: linear-gradient(270.29deg, #FC4E28 3.85%, #FD502A 97.02%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.career-sec3 .career-sec3-cont {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 80px 0;
+}
+
+.career-sec3 .career-sec3-cont .img-cont {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.career-sec3 .career-sec3-cont .img-cont img {
+    width: 100%;
+    height: 100%;
+}
+
+.career-sec3 .txt-cont {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.career-sec3 .txt-cont form {
+    width: 100%;
+    height: 500px;
+}
+
+.career-sec3 .txt-cont form input {
+    width: 260px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding-left: 15px;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #A0A0A0;
+}
+
+.career-sec3 .txt-cont form textarea {
+    width: 90%;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 15px 0 0 15px;
+    text-transform: capitalize;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #A0A0A0;
+}
+
+.career-sec3 .txt-cont .btn-wrapper11 {
+    width: 180px;
+    height: 50px;
+    transition: all .2s ease-in-out;
+    margin-left: 15px;
+}
+
+.career-sec3 .txt-cont .btn-wrapper11:hover {
+    transform: scale(1.1);
+}
+
+.career-sec3 .txt-cont .btn-wrapper11 button {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #FF3B34 29.31%, #FF5633 49.69%, #FF6C33 66.81%);;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+/* MEDIA QUERIES  */
+
+
+@media screen and (max-width: 1280px) {
+
+    .career-sec3 .txt-cont {
+        width: 45%;
+    }
+
+    .career-sec3 .txt-cont form textarea {
+        width: 95%;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .career-header {
+        background-size: cover;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 {
+        width: 75%;
+    }
+
+    .career-sec3 .txt-cont {
+        width: 60%;
+    }
+
+    .career-sec3 .txt-cont form textarea {
+        width: 90%;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 {
+        height: 300px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont,
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .img-cont {
+        height: 250px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .career-header .carrer-header.career-header-cont .career-header-text h1 {
+        font-size: 30px;
+    }
+
+    .career-header .carrer-header.career-header-cont .career-header-text h1 img {
+        width: 80px;
+        height: 25px;
+    }
+
+    .career-sec2 {
+        background-size: 200px 530px;
+    }
+
+    .career-sec3 .txt-cont form input {
+        width: 205px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .career-header {
+        background-image: url(./Career/Careerbg-R.svg);
+        background-size: cover;
+    }
+
+    .career-header .carrer-header.career-header-cont {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .career-header .carrer-header.career-header-cont .career-header-text {
+        width: 100%;
+        padding: 50px 0 80px 0;
+    }
+
+    .career-header .career-header-img {
+        width: 100%;
+        height: auto;
+        margin: 0 0 200px 0;
+        background-size: 60px, contain;
+        background-position: 100% 99%, center;
+    }
+
+    .career-header .carrer-header.career-header-cont .career-header-text h1 {
+        line-height: 50px;
+    }
+
+    .career-header .carrer-header.career-header-cont .career-header-text h1 img {
+        width: 100px;
+        height: 35px;
+    }
+
+    .career-sec2 h5,
+    .career-sec3 h5 {
+        font-size: 12px;
+    }
+
+    .career-sec2 h3 {
+        font-size: 20px;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .career-header .career-header-img img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1,
+    .career-sec3 .career-sec3-cont {
+        flex-direction: column;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 {
+        width: 70%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .img-cont {
+        width: 250px;
+        height: 150px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .img-cont img {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont {
+        width: 250px;
+        height: auto;
+        background-color: hsl(0,0%,100%);
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont {
+        padding-left: 0;
+        border-radius: 0 0 8px 8px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont h4 {
+        font-size: 15px;
+        text-align: center;
+        padding: 25px 20px 0 20px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont p {
+        font-size: 12px;
+        text-align: inherit;
+        line-height: normal;
+        padding: 0 20px 0 20px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont .btn-wrapper2 {
+        width: 150px;
+        height: 40px;
+        margin: 25px 0 30px 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .career-sec2 .career-sec2-cont .career-sec2-box1 .txt-cont .btn-wrapper2 {
+        font-size: 12px;
+    }
+
+    .career-sec2 {
+        background-position: right center;
+        background-size: 130px 350px;
+    }
+
+    .career-sec2 .career-sec2-cont {
+        margin-bottom: 30px;
+    }
+
+    .career-sec3 h3,
+    .career-sec3 h4 {
+        font-size: 25px;
+        padding: 0 30px 0 30px;
+        text-align: center;
+    }
+
+    .career-sec3 .career-sec3-cont {
+        margin-top: 0;
+    }
+
+    .career-sec3 .career-sec3-cont .img-cont {
+        width: 100%;
+        height: 250px;
+    }
+
+    .career-sec3 .txt-cont,
+    .career-sec3 .txt-cont form {
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+
+    .career-sec3 .txt-cont form {
+        width: 90%;
+        height: auto;
+    }
+
+    .career-sec3 .txt-cont form input {
+        width: 145px;
+        height: 40px;
+        font-size: 11px;
+    }
+
+    .career-sec3 .txt-cont form textarea {
+        height: 100px;
+        font-size: 11px;
+    }
+
+    .career-sec3 .txt-cont .btn-wrapper11 {
+        width: 150px;
+        height: 40px;
+        margin-top: 50px;
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    .career-sec3 .txt-cont .btn-wrapper11 button {
+        font-size: 12px;
+    }
+ 
+}

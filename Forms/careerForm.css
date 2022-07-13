@@ -1,0 +1,614 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-container .form-cont1 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.form-container .form-cont1 .form-red-bg {
+    width: 95%;
+    height: 10px;
+    background-color: hsl(8,100%,68%);
+    border-radius: 18px 18px 0 0;
+}
+
+.form-container .form-cont1 .form-cont1-content {
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: hsl(240,50%,13%);
+    background-image: url(../Form/White_bg.svg);
+    background-repeat: no-repeat;
+    background-position: 0% -20%;;
+    background-size: 400px;
+    border-radius: 0 0 18px 18px;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 {
+    width: 80%;
+    height: auto;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.form-container .form-cont1 .form-cont1-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 138%;
+    color: #8989D8;
+    text-align: inherit;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 80px;
+    /* margin-bottom: 100px; */
+    margin-bottom: 350px;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-dotted-img {
+    width: 50px;
+    height: 600px;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-dotted-img img {
+   height: 100%;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details {
+    width: 80%;
+    position: relative;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box1 {
+    position: absolute;
+    top: -5px;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box2 {
+    position: absolute;
+    top: 260px;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box3 {
+    position: absolute;
+    top: 580px;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    padding-bottom: 10px;
+    line-height: 138%;
+    color: #FFFFFF;
+    text-align: inherit;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details p,
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details li {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #F3F3F3;
+    line-height: 138%;
+    text-align: inherit;
+    text-transform: inherit;
+}
+
+.form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box2 li {
+    line-height: 30px;
+}
+
+.form-container .form-cont2 {
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Form/Shape-bg.svg), url(../Form/bg-Shape.svg);
+    background-repeat: no-repeat;
+    background-position: top right, bottom right;
+}
+
+.form-container .form-cont2 form {
+    padding-left: 40px;
+    margin-top: 80px;
+}
+
+.form-container .form-cont2 form h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 138%;
+    color: #111133;
+    text-transform: capitalize;
+    text-align: inherit;
+    padding-bottom: 50px;
+}
+
+.form-container .form-cont2 form .form-inputs {
+
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 40px 0;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1 label {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 138%;
+    color: #363636;
+    text-align: inherit;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1 input {
+    box-sizing: border-box;
+    width: 597px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 2px solid #CDCDCD;
+    outline: none;
+    padding-left: 15px;
+    text-align: inherit;
+    border-radius: 6px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 138%;
+    color: #989898;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box {
+    flex-direction: row;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input {
+    width: 250px;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1 .choosefile {
+    padding-left: 0;
+}
+
+::-webkit-file-upload-button {
+    width: 100px;
+    height: 100%;
+    background: #F0F0F0;
+    border-radius: 4px 0px 0px 4px;
+    outline: none;
+    border: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.form-container .form-cont2 form .form-btn {
+    width: 597px;
+    height: 60px;
+    background: linear-gradient(90deg, #FF3B34 29.31%, #FF5633 49.69%, #FF6C33 66.81%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.form-container .form-cont2 form .form-btn button {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 172.19%;
+    color: #FFFFFF;
+    background: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.form-container .form-cont2 form .form-btn button:hover {
+    transform: scale(1.1);
+}
+
+
+/* Error messages  */
+.form-container .form-cont2 form .form-inputs .form-box1 span,
+.form-container .form-cont2 form .form-btn span.submit-error {
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+    color: red;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1 span.success-message {
+    font-size: 15px;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2;
+    color: seagreen;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox,
+.form-container .form-cont2 form .form-btn {
+    position: relative;
+}
+
+.form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox span.cctc-error,
+.form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox span.ectc-error,
+.form-container .form-cont2 form .form-btn span.submit-error {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+}
+
+
+
+
+
+/* Pop-up */
+.popup {
+    width: 600px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    padding: 0 30px 30px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.popup.open-popup {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.popup img {
+    padding: 50px 0 20px 0;
+}
+
+.popup h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    color: #18184B;
+    text-transform: capitalize;
+    padding: 20px 20px 15px 20px;
+}
+
+.popup p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    text-align: center;
+    color: #68688F;
+    text-transform: inherit;
+    padding-bottom: 30px;
+    padding: 0 20px 50px 20px;
+}
+
+.popup a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: hsl(240,35%,37%);
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.blur.on {
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+    /* position: fixed;
+    top: 0;
+    bottom: 0; */
+}
+
+
+/* MEDIA QUERIES  */
+
+
+@media screen and (max-width: 1280px) {
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 {
+        width: 90%;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 input,
+    .form-container .form-cont2 form .form-btn {
+        width: 550px;
+    }
+
+    .form-container .form-cont2 form {
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1024px)  {
+
+    .form-container .form-cont2 form {
+        width: 100%;
+        margin-top: 180px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 input,
+    .form-container .form-cont2 form .form-btn {
+        width: 430px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input {
+        width: 200px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 label {
+        font-size: 12px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 input {
+        font-size: 11px;
+    }
+
+    .form-container .form-cont1 {
+        margin-bottom: 50px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content {
+        background-size: 300px;
+        background-position: 0% -10%;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 {
+        width: 90%;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 {
+        margin-bottom: 300px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-dotted-img {
+        width: 30px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details h5 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    .form-container,
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box {
+        flex-direction: column;
+    }
+
+    .form-container .form-cont2 {
+        margin-top: 50px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input {
+        width: 597px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox.mb {
+        margin-bottom: 40px;
+    }
+
+    .form-container .form-cont1,
+    .form-container .form-cont2 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .sec-header {
+        border-bottom: none;
+    }
+    
+    .form-container,
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box {
+        flex-direction: column;
+    }
+
+    .form-container .form-cont1,
+    .form-container .form-cont2 {
+        width: 100%;
+        background-size: 100px, 155px 500px;
+        background-position: top right, center right;
+    }
+
+    .form-container .form-cont2 {
+        /* margin-top: 50px; */
+    }
+
+    .form-container .form-cont1 .form-cont1-content {
+        /* justify-content: center; */
+        background-size: 95px 200px;
+        background-position: 0% 6%;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 {
+        padding-top: 50px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 h1 {
+        font-size: 40px;
+        text-align: inherit;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details h5,
+    .form-container .form-cont2 form h3 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 {
+        height: auto;
+        margin-bottom: 300px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details p,
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box2 li {
+        font-size: 12px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-dotted-img {
+        width: 25px;
+        height: 500px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box2 {
+        top: 215px;
+    }
+
+    .form-container .form-cont1 .form-cont1-content .form-cont1-content1 .form-cont1-content2 .form-details .form-details-box3 {
+        top: 490px;
+    }
+
+    .form-container .form-cont2 form,
+    .form-container .form-cont2 form .form-inputs {
+        width: 90%;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 label {
+        font-size: 14px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 input,
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input {
+        width: 330px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox.mb {
+        margin-bottom: 40px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input {
+        margin-top: 10px;
+    }
+
+    .form-container .form-cont2 form .form-btn {
+        width: 330px;
+        height: 50px;
+    }
+
+    .form-container .form-cont2 form .form-inputs .form-box1 input,
+    .form-container .form-cont2 form .form-btn {
+        border-radius: 4px;
+    }
+
+    .form-container .form-cont2 form .form-btn {
+        height: 40px;
+    }
+
+    .form-container .form-cont2 form .form-btn button {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    /* .form-container .form-cont2 form .form-inputs .form-box1 input,
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input,
+    .form-container .form-cont2 form .form-btn {
+        width: 480px;
+    } */
+
+}
+
+@media screen and (max-width: 412px) {
+
+    /* .form-container .form-cont2 form .form-inputs .form-box1 input,
+    .form-container .form-cont2 form .form-inputs .form-box1.form-box2-2box .form-box1-subbox input,
+    .form-container .form-cont2 form .form-btn {
+        width: 365px;
+    } */
+
+}

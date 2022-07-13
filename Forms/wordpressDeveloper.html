@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTAWESOME CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- STYLES  -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="careerForm.css">
+    <title>Career Form</title>
+</head>
+<body>
+
+    <!-- HEADER CONTAINER -->
+    <div class="header-container">
+        <div class="logo-container">
+            <img src="../images/LOGO1.svg" alt="">
+        </div>
+        <div class="nav-container">
+            <a href="../index.html">Home</a>
+            <a href="../FeaturedPage/featured.html">Features</a>
+            <a class="active" href="#">Career</a>
+            <a href="../Projects/projects.html">Projects</a>
+            <a href="../BlogPage/blog.html">Blog</a>
+            <a href="../contactus.html">Contact</a>
+        </div>
+    </div>
+
+
+    <!-- SECONDARY HEADER -->
+    <div class="sec-header">
+        <div class="sec-logo">
+            <img src="../images/LOGO1.svg" alt="">
+        </div>
+        <div class="header-bar">
+            <i class="fa fa-bars bar" aria-hidden="true"></i>
+            <i class="fa fa-times times" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div class="sec-nav-contents">
+        <a href="../index.html">Home</a>
+            <a href="../FeaturedPage/featured.html">Features</a>
+            <a class="active" href="#">Career</a>
+            <a href="../Projects/projects.html">Projects</a>
+            <a href="../BlogPage/blog.html">Blog</a>
+            <a href="../contactus.html">Contact</a>
+    </div>
+
+
+    <!-- FORM CONTAINER  -->
+    <div class="form-container blur">
+        <div class="form-cont1">
+            <div class="form-red-bg"></div>
+            <div class="form-cont1-content">
+                <div class="form-cont1-content1">
+                    <h1>Wordpress Developer</h1>
+                    <div class="form-cont1-content2">
+                        <div class="form-dotted-img">
+                            <img src="../Form/red dotted line.svg" alt="">
+                        </div>
+                        <div class="form-details">
+                            <div class="form-details-box1">
+                                <h5>About your role:</h5>
+                                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido</p>
+                            </div>
+                            <div class="form-details-box2">
+                                <h5>Your resposibilities:</h5>
+                                <li>Lorem Ipsum es simplemente</li>
+                                <li>Lorem Ipsum es simplemente</li>
+                                <li>Lorem Ipsum es simplemente</li>
+                                <li>Lorem Ipsum es simplemente</li>
+                                <li>Lorem Ipsum es simplemente</li>
+                                <li>Lorem Ipsum es simplemente</li>
+                            </div>
+                            <div class="form-details-box3">
+                                <h5>Benefits on joining us:</h5>
+                                <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-cont2 forms">
+            <form class="forms" onsubmit="return false">
+                <h3>Tell Us About You:</h3>
+                <div class="form-inputs">
+                    <div class="form-box1">
+                        <label for="firstname">First name: *</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-box1">
+                        <label for="lastname">Last name: *</label>
+                        <input type="text">
+                    </div>
+                    <div class="form-box1">
+                        <label for="email">Email ID: *</label>
+                        <input type="email">
+                    </div>
+                    <div class="form-box1">
+                        <label for="phonenumber">Phone Number: *</label>
+                            <!-- <div class="main"> -->
+                                <!-- <div class="form_group"> -->
+                                    <input type="tel" id="txtPhone" class="txtbox" />
+                                    <!-- <input id="btnSubmit" class="btn" type="button" value="SUBMIT" > -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+                    </div>
+                    <div class="form-box1">
+                        <label for="experience">Years of work experience: *</label>
+                        <input type="number">
+                    </div>
+                    <div class="form-box1">
+                        <label for="companyname">Current Company Name: </label>
+                        <input type="text">
+                    </div>
+                    <div class="form-box1 form-box2-2box">
+                        <div class="form-box1-subbox mb">
+                            <label for="currentctc">Current CTC Per Annum: *</label>
+                            <input type="number">
+                        </div>
+                        <div class="form-box1-subbox">
+                            <label for="expectedctc">Expected CTC Per Annum: *</label>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="form-box1">
+                        <label for="portfoliolink">Portfolio link: </label>
+                        <input type="link" placeholder="http://">
+                    </div>
+                    <div class="form-box1">
+                        <label for="choose-file">Resume: *</label>
+                        <input class="choosefile" type="file">
+                    </div>
+                </div>
+                <div class="form-btn">
+                    <button type="submit" class="apply-btn">Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- <div class="pop"></div> -->
+    <div class="popup">
+        <img src="../Form/checked.svg" alt="">
+        <h2>Thank you for applying to the Wordpress Developer Position position at Nidish!</h2>
+        <p>I’d like to inform you that we received your application. Our hiring team is currently reviewing all applications 🤗</p>
+        <a href="#">Go Back To Home Page</a>
+    </div>
+
+
+    <!-- FOOTER CONTAINER -->
+    <div class="footer-container">
+        <div class="footer-logo-container">
+            <img src="../images/LOGO1.svg" alt="">
+        </div>
+        <div class="footer-content-container">
+            <div class="footer-s1">
+                <h5 class="footer-heading">Quick Links</h5>
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Tracking</a></li>
+                    <li><a href="#">Terms of services</a></li>
+                    <li><a href="#">Customization</a></li>
+                    <li><a href="#">Contact Us </a></li>
+                </ul>
+            </div>
+            <div class="footer-s1">
+                <h5 class="footer-heading">Company</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-s3">
+                <h5 class="footer-heading">Contact Us</h5>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt map-marker"></i> 8569 Perry Drive, Novelty OH, USA</li>
+                    <li><i class="fas fa-map-marker-alt map-marker"></i> 8569 Perry Drive, Novelty OH, USA</li>
+                    <li><i class="fas fa-phone-alt phone"></i> (+1) 440-318-4500</li>
+                    <li><i class="fas fa-envelope envelope"></i> contact@nidish.com</li>
+                </ul>
+            </div>
+            <div class="footer-s4">
+                <h5 class="footer-heading">Subscribe Newsletter</h5>
+                <p>Follow our newsletter to stay updated about us.</p>
+                <div class="footer-ip-container">
+                    <input type="text" placeholder="E-mail Address">
+                    <a href="#"><i class="fas fa-angle-right angle-right"></i></a>
+                </div>
+                <div class="footer-icon-container">
+                    <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/css/intlTelInput.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var code = "+91"; // Assigning value from model.
+            $('#txtPhone').val(code);
+            $('#txtPhone').intlTelInput({
+                autoHideDialCode: true,
+                autoPlaceholder: "ON",
+                dropdownContainer: document.body,
+                formatOnDisplay: true,
+                hiddenInput: "full_number",
+                initialCountry: "auto",
+                nationalMode: true,
+                placeholderNumberType: "MOBILE",
+                preferredCountries: ['US'],
+                separateDialCode: true
+            });
+            $('#btnSubmit').on('click', function () {
+                var code = $("#txtPhone").intlTelInput("getSelectedCountryData").dialCode;
+                var phoneNumber = $('#txtPhone').val();
+                var name = $("#txtPhone").intlTelInput("getSelectedCountryData").name;
+                alert('Country Code : ' + code + '\nPhone Number : ' + phoneNumber + '\nCountry Name : ' + name);
+            });
+        });
+    </script>
+    <script src="../navbar.js"></script>
+    <script src="careerForm.js"></script>
+</body>
+</html>

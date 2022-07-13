@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* PROJECTS NAVBAR | 1 */
+.project-header {
+    width: 100%;
+    height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Project/Projects-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.project-header .project-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-header .project-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 138%;
+    color: #FFFFFF;
+    margin-top: -100px;
+}
+
+.project-header .project-content p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 138%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+/* PROJECTS CONTAINER | 2 */
+.project-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FAFAFF;
+}
+
+.project-container .projectCont-head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container .projectCont-head h5 {
+    width: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    color: #104DBE;
+    background: #ECF3FF;
+    padding: 5px 10px;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-container .projectCont-head h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 50px;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.project-container .projectCont-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.project-container .projectCont-content .btn-container {
+    width: 56%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 26px #F1F1FF;
+    border-radius: 15px;
+}
+
+.project-container .projectCont-content .btn-container .content-btn {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.02em;
+    color: #A3A3A3;
+    padding: 5px 10px;
+    margin: 20px 10px;
+    background: #F5F5F5;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.project-container .projectCont-content .btn-container .content-btn:hover {
+    background: #ded7d7;
+    color: #342d2d;
+}
+
+.project-container .projectCont-content .btn-container .content-btn.active {
+    background: linear-gradient(90deg, #FF3B34 2.38%, #FF6C33 75.09%);
+    box-shadow: 0px 4px 11px #FFC5BB;
+    color: #FFFFFF;
+}
+
+.project-container .projectCont-content .content-center {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+} 
+
+.project-container .projectCont-content .content-center {
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-content: flex-start;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.project-container .projectCont-content .content-center .content-item {
+    width: 385px;
+    height: 395px;
+    position: relative;
+}
+
+.project-container .projectCont-content .content-center .content-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.project-container .projectCont-content .content-center .content-item img:hover {
+    opacity: 0.5;
+}
+
+/* .project-container .projectCont-content .content-center .viewMore {
+    display: none;
+} */
+
+.project-container .projectCont-content .content-center .content-item .expand-work {
+    visibility: hidden;
+    width: 250px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px 0 0 30px;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.project-container .projectCont-content .content-center .content-item .expand-work h6 {
+    width: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 27px;
+    color: #104DBE;
+    background: #ECF3FF;
+    border-radius: 100px;
+    margin-left: -15px;
+    text-align: center;
+}
+
+.project-container .projectCont-content .content-center .content-item .expand-work h5 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    margin-left: -15px;
+}
+
+.project-container .projectCont-content .content-center .content-item .expand-work a {
+    cursor: pointer;
+}
+
+.project-container .projectCont-content .content-center .content-item .expand-work a img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 27%;
+    left: 90%;
+}
+
+.project-container .projectCont-content .content-center .content-item:hover .expand-work {
+    visibility: visible;
+    transition: opacity 2s;
+}
+
+
+.project-container .projectCont-content .more-less {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.project-container .projectCont-content .more-less button {
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(90deg, #FF3B34 29.31%, #FF5633 49.69%, #FF6C33 66.81%);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 172.19%;
+    text-transform: capitalize;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+} 
+
+.project-container .projectCont-content .more-less button:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* PROJECTS BRANDS | 3 */
+.project-brand {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 100px 0;
+    background: #FFFFFF;;
+}
+
+.project-brand h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 160.69%;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.project-brand .brands {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-brand .brands a {
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1.5px solid #D9D9E9;
+    border-radius: 11px;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.project-brand .brands a img {
+    width: 100px;
+    height: 100%;
+}
+
+.project-brand .brands a:hover {
+    border: 2px solid #3C50E0;
+
+}
+
+
+/* MEDAI QUERIES  */
+
+@media screen and (max-width: 1280px) {
+    .project-header {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .project-container .projectCont-content .content-center {
+        row-gap: 2rem;
+    }
+
+    .project-container .projectCont-content .content-center .content-item {
+        width: 250px;
+        height: 250px;
+    }
+
+    .project-container .projectCont-content .content-center .content-item .expand-work {
+        width: 80%;
+        height: 140px;
+        align-items: center;
+        padding: 0;
+        top: 20%;
+        left: 10%;
+    }
+
+    .project-container .projectCont-content .content-center .content-item .expand-work a img {
+        top: 70%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .project-container .projectCont-content .content-center .content-item {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .project-container .projectCont-content .btn-container {
+        width: 80%;
+    }
+
+    .project-container .projectCont-content .btn-container .content-btn {
+        font-size: 8px;
+        line-height: normal;
+        letter-spacing: normal;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .project-container .projectCont-content .content-center {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .project-container .projectCont-content .content-center .content-item .expand-work {
+        width: 70%;
+        height: 100px;
+        top: 35%;
+        left: 15%;
+    }
+
+    .project-container .projectCont-content .content-center .content-item .expand-work a img {
+        top: 80%;
+    }
+
+    .project-container .projectCont-content .content-center {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .project-container .projectCont-content .content-center .content-item {
+        width: 80%;
+        height: 235px;
+    }
+
+    .project-brand .brands {
+        width: 100%;
+    }
+
+    .project-brand .brands a {
+        width: 100px;
+        height: 40px;
+    }
+
+    .project-brand .brands a img {
+        width: 60px;
+    }
+
+    .project-container .projectCont-content .more-less button {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+        letter-spacing: normal;
+        line-height: normal;
+    }
+}
